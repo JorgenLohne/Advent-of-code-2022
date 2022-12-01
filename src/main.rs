@@ -1,3 +1,7 @@
+mod day1;
+
+use day1::part_one;
+
 fn main() {
-    println!("Hello, world!");
+    part_one();
 }
