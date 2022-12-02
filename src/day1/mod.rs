@@ -25,7 +25,7 @@ fn common() -> Vec<i32> {
 }
 
 
-fn part_one() -> i32{
+fn part_one() -> i32 {
     let cals: Vec<i32> = common();
     return cals[0];
 }
@@ -35,5 +35,4 @@ fn part_two() -> i32 {
     let cals: Vec<i32> = common();
     let total_cals : i32 = cals[..3].iter().sum(); //get first 3 elems and sum them
     return total_cals;
-
 }
